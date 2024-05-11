@@ -3,5 +3,7 @@ export interface Entity {
   health: number
   damage: number
   speed: number
+  initiative?: number
   armourClass: number
 }
+
