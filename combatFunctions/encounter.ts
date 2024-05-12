@@ -15,3 +15,7 @@ export function beginBattle(characters: Entity[]): Entity[] {
   })
   return combatOrder
 }
+
+const combatEntities: Entity[] = [monsters[0], monsters[0], monsters[1], monsters[1], monsters[0],]
+
+console.log(beginBattle(combatEntities))
