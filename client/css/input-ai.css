@@ -1,0 +1,11 @@
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85vh;
+  background-color: slategray;
+  width: 300px;
+  padding-block: 20px;
+  margin-inline: auto;
+  border-radius: 15px;
+}
